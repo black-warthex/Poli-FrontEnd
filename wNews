@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Yonathan Montilla" />
+    <meta name="description" content="example of what's new" />
+    <link rel="stylesheet" tyep="text/css" href="./css/wnews.css" />
+    <title>Badstore</title>
+</head>
+
+<body>
+    <div class="flex-container">
+        <header class="flex-item text-logo">
+            <img src="./img/store.png" alt="Logo of BadStore">
+            <a href="index.html">
+                <h1>BadStore</h1>
+            </a>
+        </header>
+        <main class="flex-item">
+            <div class="wnews">
+                <h1>What's new</h1>
+                <form>
+                    <label>Select Categories</label>
+                    <select name="categories">
+                        <option value="1">Automotive</option>
+                        <option value="2">Books</option>
+                        <option value="3">Computers</option>
+                    </select>
+                    <label>Sort by</label>
+                    <select name="sortby">
+                        <option value="1">Price: Low to high</option>
+                        <option value="2">Price: High to Low</option>
+                        <option value="3">Newest Arrivals</option>
+                    </select>
+                </form>
+                <h2>Results</h2>
+                <div class="parent">
+                    <div>
+                        <img src="./img/imagen.png">
+                        <h3>Title of products</h3>
+                        <h4>price $787777</h4>
+                    </div>
+                    <div>
+                        <img src="./img/imagen.png">
+                        <h3>Title of products</h3>
+                        <h4>price $787777</h4>
+                    </div>
+                    <div>
+                        <img src="./img/imagen.png">
+                        <h3>Title of products</h3>
+                        <h4>price $787777</h4>
+                    </div>
+                    <div>
+                        <img src="./img/imagen.png">
+                        <h3>Title of products</h3>
+                        <h4>price $787777</h4>
+                    </div>
+                    <div>
+                        <img src="./img/imagen.png">
+                        <h3>Title of products</h3>
+                        <h4>price $787777</h4>
+                    </div>
+                    <div>
+                        <img src="./img/imagen.png">
+                        <h3>Title of products</h3>
+                        <h4>price $787777</h4>
+                    </div>
+
+                </div>
+            </div>
+    </div>
+    </main>
+
+    <script src="./js/redirigir.js"></script>
+</body>
+
+</html>
