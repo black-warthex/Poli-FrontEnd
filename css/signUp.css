@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    height: 99vh;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+input, label{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    width: 80%;
+    height: 35px;
+    align-content: center;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+button{
+    border: none;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+
+button:hover{
+    width: 85.5%;
+    height: 42px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 22px;
+    opacity: 1;
+}
+
+.text-logo{
+    display: flex;
+    margin-top: 10px;
+}
+
+.text-logo img{
+    margin-left: 50px;
+    padding-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.text-logo h1{
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    opacity: 80%;
+}
+

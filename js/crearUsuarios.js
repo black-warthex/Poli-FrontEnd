@@ -9,6 +9,8 @@ const guardar = () => {
   console.log(usuarios);
   reiniciarValores();
   alert(`se ha creado el usuario ${nombre}`);
+  console.log("usuarios existentes");
+  console.log(usuarios);
 }
 
 const reiniciarValores = () => {

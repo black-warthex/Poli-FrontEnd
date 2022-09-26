@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Duvan Rodriguez" />
+    <meta name="description" content="example of sign up fro frontend" />
+    <title>Badstore</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" tyep="text/css" href="./css/signUp.css" />
+
+    <!-- Anicmacion input -->
+    <link rel="stylesheet" tyep="text/css" href="./css/cuadro-formulario.css" />
+
+    <link rel="stylesheet" tyep="text/css" href="./css/footer.css" />
+  </head>
+  <body>
+    <header class="text-logo">
+      <img src="./img/store.png" alt="Logo of BadStore" />
+      <h1>BadStore</h1>
+    </header>
+
+    <h1>Welcome to Badstore</h1>
+    <form id="formulario">
+      <div class="row justify-content-center cuadro-formulario">
+        <div class="row col-auto justify-content-center col-md-6 sombra">
+          <div class="group col-md-6">
+            <label>Full Name</label>
+            <input id="nombre" type="text" required />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+          </div>
+
+          <div class="group col-md-6">
+            <label>Email Adress</label>
+            <input id="correo" type="email" required />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+          </div>
+
+          <div class="group col-md-6">
+            <label>Password</label>
+            <input id="clave" type="password" required />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+          </div>
+
+          <div class="group col-md-6">
+            <label>Recovery Key</label>
+            <input id="codigoRecuperacion" type="text" required />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+          </div>
+
+          <div class="group col-md-6">
+            <div class="row justify-content-center p-3">
+              <button onclick="irLogin()">return</button>
+            </div>
+          </div>
+
+          <div class="group col-md-6">
+            <div class="row justify-content-center p-3">
+              <button onclick="guardar()" class="">save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <footer class="bg-dark text-center text-white">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >Badstore</a
+        >
+      </div>
+    </footer>
+
+    <script src="./js/usuarios.json.js"></script>
+    <script src="./js/crearUsuarios.js"></script>
+    <script src="./js/redirigir.js"></script>
+  </body>
+</html>
