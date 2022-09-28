@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #3a3d47;
+}
+.container{
+    width: 1250px;
+    background: white;
+    margin: 10px auto;
+}
+.superior{
+    background: #1551a1;
+    overflow: hidden;
+}
+.logo{
+    float:none;
+    width: 300px;
+    padding: 30px;
+}
+/*estilos para el menu de opciones*/
+menu{
+    float: left;
+    padding: 100px;
+}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.opciones li a:hover{
+    background: #0b3874;
+}
